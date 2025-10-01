@@ -2,19 +2,18 @@ package com.estoque.controller;
 
 import java.io.IOException;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import com.estoque.dao.OperacoesEstoqueDao;
 import com.estoque.dominio.EntradaEstoque;
 
 @SuppressWarnings("serial")
 @WebServlet("/receber")
-public class EstoqueEntradaServlet extends HttpServlet {
+public class EstoqueEntradaServlet extends jakarta.servlet.http.HttpServlet {
 
 	private OperacoesEstoqueDao dao;
 	

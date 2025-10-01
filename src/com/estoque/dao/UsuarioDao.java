@@ -145,7 +145,7 @@ public class UsuarioDao {
 			rs = pstm.executeQuery();
 			
 			while(rs.next()) {
-				u.setId(rs.getInt("id"));
+				u.setId(rs.getInt("id_usuario"));
 				u.setNome(rs.getString("nome"));
 				u.setMatricula(rs.getString("matricula"));
 				u.setEmail(rs.getString("email"));

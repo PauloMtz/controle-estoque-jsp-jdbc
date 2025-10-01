@@ -8,5 +8,4 @@ public class ConexaoTeste {
 		MysqlConexao con = new MysqlConexao();
 		con.getConexao();
 	}
-
 }

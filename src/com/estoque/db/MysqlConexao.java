@@ -8,10 +8,10 @@ public class MysqlConexao {
 
 	private static Connection conexao = null;
 	private static String user = "root";
-	private static String password = "admin123";
+	private static String password = "";
 	private static String url = 
-			"jdbc:mysql://localhost:3306/almox?useTimezone=true&serverTimezone=UTC&useSSL=false";
-	//private static String url = "jdbc:postgresql://localhost:5432/database";
+			"jdbc:mysql://localhost:3306/almox?useTimezone=true&serverTimezone=America/Sao_Paulo&useSSL=false";
+			//private static String url = "jdbc:postgresql://localhost:5432/database";
 	
 	static {
 		try {
